@@ -46,7 +46,7 @@ var YourFloor = brickCalculator(22);
 console.log("total bricks needed = ",YourFloor);
 
 
-//Assignment name: tinyFriend
+//4.Assignment name: tinyFriend 
 function tinyFriend(arr) {
 
     let shortest = '';
