@@ -49,7 +49,7 @@ console.log("total bricks needed = ",YourFloor);
 //4.Assignment name: tinyFriend 
 function tinyFriend(arr) {
 
-    let shortest = '';
+    let shortest = arr[0];
 
        if(arr.length > 0){
          for(let i = 0; i < arr.length; i++){
@@ -63,5 +63,5 @@ function tinyFriend(arr) {
         return shortest; 
     }
 
-var output = tinyFriend(['masum','al','abdullah','jasim']);
+let output = tinyFriend(['masum','al','abdullah','jasim']);
 console.log("shortest value",output);
